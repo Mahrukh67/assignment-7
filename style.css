@@ -1,0 +1,363 @@
+     /* ------------------ Reset CSS ----------------- */
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+
+     /* --------------------- Header Styles ----------------------- */
+     header {
+         height: 5vh;
+         background-color: #333;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 20px 90px;
+
+     }
+
+     .contact-info {
+         color: #fff;
+         font-size: 1rem;
+         display: flex;
+         align-items: center;
+     }
+
+     .contact-info .icon {
+         margin-right: 10px;
+     }
+
+     .center-content {
+         color: #fff;
+         font-size: 1.2rem;
+         text-align: center;
+         flex: 1;
+         margin: 0px 190px;
+     }
+
+     .follow-us {
+         color: #fff;
+         font-size: 1rem;
+         display: flex;
+         align-items: center;
+     }
+
+     .follow-us .icon {
+         margin-right: 10px;
+     }
+
+     /* ----------------------- Navbar Styles ----------------------------- */
+     nav {
+         background-color: white;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+         padding: 20px 100px;
+     }
+
+     .logo img {
+         height: 6.5vh;
+         width: 70px;
+         margin-right: auto;
+     }
+
+     .nav-links {
+         list-style-type: none;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+     }
+
+     .nav-links li {
+         margin-right: 20px;
+     }
+
+     .nav-links a {
+         color: black;
+         text-decoration: none;
+         font-size: 1.2rem;
+         font-weight: 600;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .nav-links a:hover {
+         color: red;
+     }
+
+     .icons {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .icons i {
+         color: black;
+         font-size: 1.2rem;
+         margin-left: 10px;
+         cursor: pointer;
+     }
+
+     .icons i:hover {
+         color: red;
+     }
+
+     /* ------------body part styles of after carousal ----------------- */
+     .link-title {
+         margin: 100px 50px;
+     }
+
+     .link-title .slider {
+         display: flex;
+         justify-content: space-between;
+
+     }
+
+     .link-title .slider .slide {
+         flex: 0 0 calc(33.33% - 20px);
+         /* 3 images in a row with 20px spacing */
+         position: relative;
+         padding: 10px;
+         border-radius: 20%;
+
+     }
+
+     .link-title .slider .slide img {
+         width: 450px;
+         height: 350px;
+         border-radius: 20%;
+         object-fit: cover;
+     }
+
+     .overlay {
+         position: absolute;
+         bottom: 10px;
+         left: 5px;
+         right: 5px;
+         text-align: center;
+         padding: 30px;
+         opacity: 0;
+         transition: opacity 0.3s ease;
+         height: 160px;
+         width: 450px;
+         border-radius: 30%;
+
+     }
+
+     .slide:hover .overlay {
+         opacity: 1;
+     }
+
+     .overlay h1 {
+         font-size: 2.7rem;
+         font-weight: 800;
+         font-family: 'Times New Roman', Times, serif;
+     }
+
+     .overlay .btn {
+
+         margin: 5px;
+         padding: 10px 10px;
+         color: #ce2626;
+         border: none;
+         cursor: pointer;
+         background-color: #fff;
+         font-weight: 700;
+     }
+
+     .overlay .btn:hover {
+         background-color: red;
+         color: white;
+     }
+
+/* big imgaes css */
+.container2{
+background-color: rgba(232, 183, 241, 0.411);
+text-align: center;
+padding: 40px 0px;
+}
+.container2 h2{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700 ;
+}
+.container2 h4{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.container2 .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 10px;
+    margin-top: 40px;
+    border-radius: 10%;
+    
+}
+.container2 .row .col{
+    height: 600px;
+    width: 700px;
+}
+.container2 .row img{
+    object-fit: cover;
+    height: 600px;
+    width: 700px;
+    border-radius: 10%;  
+}
+
+/* cards css */
+.cards{
+    padding: 50px 50px;
+    text-align: center;
+}
+.cards h2{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700 ;
+}
+.cards h4{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+/* feedback css */
+.feedback-cards{
+    text-align: center;
+}
+.feedback-cards h2{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700 ;
+}
+.feedback-cards h4{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.cards-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ .feedback-cards .cards-flex .card{
+    padding: 12px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid red;
+ }
+ .feedback-cards .cards-flex .card img{
+    border-radius: 50%;
+ }
+ /* big image */
+
+.big{
+    margin: 50px 0px;
+    padding: 50px 50px;
+}
+/* footer */
+.footer{
+    background-color: #f37c7c86;
+}
+
+.footer hr {
+    margin: 20px 20px;
+    color: #333333;
+}
+
+.footer .single-line {
+    margin: 10px 25px;
+    color: #333333;
+    text-align: center;
+}
+
+.footer .foot-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .foot-div .div1 img {
+    width: 120px;
+    height: 64px;
+}
+
+.footer .foot-div .div1 li {
+    color: #E21B70;
+    margin: 20px;
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo img {
+    width: 120px;
+    height: 64px;
+    margin: 60px 30px;
+}
+
+
+
+
+
+
+
+
+     /* ------------------------ Media Queries for Responsiveness --------------------------- */
+     @media (max-width: 768px) {
+
+         /*----- header responsive -----*/
+         header {
+             flex-direction: column;
+             height: auto;
+             padding: 6px 0px;
+         }
+
+         .contact-info,
+         .follow-us {
+             display: none;
+         }
+
+         .center-content {
+             margin-top: 20px;
+         }
+
+         /*---- navbar styles responsive----- */
+
+         nav {
+             background-color: white;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             padding: 7px 60px;
+         }
+
+         .logo img {
+             height: 5vh;
+             width: 50px;
+             margin-right: auto;
+         }
+
+         .nav-links {
+             display: none;
+         }
+
+         .center-content {
+             margin: 0px 20px;
+         }
+
+         .icons {
+             margin-left: auto;
+         }
+
+         .icons i:first-child {
+             margin-left: 0;
+         }
+
+     }
